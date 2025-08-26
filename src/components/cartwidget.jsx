@@ -1,10 +1,10 @@
 import React from 'react';
 
 const CartWidget = () => {
-  const cartItemCount = 3; // Esto puede venir luego del contexto o props
+  const cartItemCount = 3;
 
   return (
-    <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
+    <div>
       🛒
       <span>{cartItemCount}</span>
     </div>

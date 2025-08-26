@@ -7,7 +7,7 @@ function App() {
   return (
     <div style={{ paddingTop: '80px' }}>
       <NavBar />
-      <ItemListContainer greeting="¡Bienvenido a nuestra tienda online!" />
+      <ItemListContainer greeting="¡Bienvenido a VirtualPadelStore!" />
     </div>
   );
 }
